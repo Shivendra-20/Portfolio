@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shivendra — IT Undergrad at NIT Jalandhar building with C++, MERN and Machine Learning." />
+    <meta name="theme-color" content="#08090c" />
+    <title>Shivendra | Portfolio</title>
+    <script>
+      (function () {
+        try {
+          var dark = localStorage.getItem("theme") !== "light";
+          document.documentElement.classList.toggle("dark", dark);
+          document.documentElement.classList.toggle("light", !dark);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
