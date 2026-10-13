@@ -72,7 +72,7 @@ const HeroSection = () => {
         className="text-lg text-muted-foreground font-body max-w-2xl mb-10"
       >
         Building things with{" "}
-        <span className="text-primary">C++</span>,{" "}
+        <span className="text-primary">C++,Python</span>,{" "}
         <span className="text-primary">MERN</span> &{" "}
         <span className="text-primary">Machine Learning</span>
       </motion.p>

@@ -1,9 +1,9 @@
 const skills = [
-  { category: "Languages", items: ["C++", "JavaScript", "Python", "HTML/CSS"] },
-  { category: "Frontend", items: ["React", "Tailwind CSS", "Bootstrap"] },
+  { category: "Languages", items: ["C++", "Python", "JavaScript", "HTML/CSS"] },
+  { category: "Frontend", items: ["React", "Tailwind CSS"] },
   { category: "Backend", items: ["Node.js", "Express.js", "MongoDB"] },
-  { category: "ML / Data", items: ["NumPy", "Pandas", "Scikit-learn", "TensorFlow"] },
-  { category: "Tools", items: ["Git", "GitHub", "VS Code", "Linux"] },
+  { category: "ML / Data", items: ["NumPy", "Pandas", "Scikit-learn"] },
+  { category: "Tools", items: ["Git", "GitHub", "VS Code"] },
 ];
 
 export const Skills = () => {

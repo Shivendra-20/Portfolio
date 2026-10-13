@@ -4,23 +4,22 @@ import { Github } from "./BrandIcons";
 
 const projects = [
   {
-    title: "Portfolio Website",
-    desc: "Personal developer portfolio built with React and Tailwind CSS featuring a terminal-inspired dark theme.",
+    title: "TradeWise",
+    desc: "Paper trading platform with virtual balance, market/limit orders, portfolio tracking, and live NSE prices via Upstox WebSocket.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO"],
+    github: "https://github.com/Shivendra-20/Tradewise",
+  },
+  {
+    title: "SentryAid",
+    desc: "Role-based women's safety platform with real-time SOS dispatch, live chat, and location sharing via Socket.IO.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO"],
+    github: "https://github.com/Shivendra-20/SentryAid",
+  },
+  {
+    title: "Portfolio",
+    desc: "Personal developer portfolio built with React, Tailwind CSS, and Vite with a terminal-inspired theme.",
     tags: ["React", "Tailwind CSS", "Vite"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Task Manager App",
-    desc: "Full-stack task management application with authentication, CRUD operations, and real-time updates.",
-    tags: ["MongoDB", "Express", "React", "Node.js"],
-    github: "#",
-  },
-  {
-    title: "ML Price Predictor",
-    desc: "Machine learning model to predict house prices using regression techniques and feature engineering.",
-    tags: ["Python", "Scikit-learn", "Pandas"],
-    github: "#",
+    github: "https://github.com/Shivendra-20/Portfolio",
   },
 ];
 
@@ -84,8 +83,11 @@ const ProjectsSection = () => {
               {project.github && (
                 <motion.a
                   href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.2 }}
                   className="hover:text-primary transition-colors"
+                  aria-label={`${project.title} on GitHub`}
                 >
                   <Github size={18} />
                 </motion.a>
@@ -94,8 +96,11 @@ const ProjectsSection = () => {
               {project.live && (
                 <motion.a
                   href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.2 }}
                   className="hover:text-primary transition-colors"
+                  aria-label={`${project.title} live demo`}
                 >
                   <ExternalLink size={18} />
                 </motion.a>

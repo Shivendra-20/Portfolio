@@ -10,7 +10,7 @@ export const About = () => {
       <div className="grid md:grid-cols-2 gap-12 max-w-5xl">
         <div className="space-y-4 text-muted-foreground leading-relaxed">
           <p>
-            I'm a 2nd year Information Technology student at the National Institute
+            I'm a 3rd year Information Technology student at the National Institute
             of Technology, Jalandhar. I'm passionate about solving complex problems
             and building impactful software.
           </p>

@@ -17,7 +17,7 @@ const AboutSection = () => {
         <StaggerContainer className="space-y-4 text-muted-foreground leading-relaxed">
           <StaggerItem>
             <p>
-              I'm a 2nd year Information Technology student at the National Institute
+              I'm a 3rd year Information Technology student at the National Institute
               of Technology, Jalandhar. I'm passionate about solving complex problems
               and building impactful software.
             </p>
@@ -44,15 +44,15 @@ const AboutSection = () => {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-                  DSA with C++ â€” Problem Solving & Competitive Programming
+                  DSA with C++ and Problem Solving & Competitive Programming
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-                  MERN Stack â€” MongoDB, Express, React, Node.js
+                  MERN Stack - MongoDB, Express, React, Node.js
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-                  Machine Learning â€” Python, Scikit-learn, TensorFlow
+                  Machine Learning - Python, Pandas, Numpy, Matplotlib, Scikit-learn
                 </li>
               </ul>
             </div>
@@ -62,7 +62,7 @@ const AboutSection = () => {
               <h3 className="font-heading text-sm text-primary mb-3">{">"} Education</h3>
               <p className="text-foreground font-medium text-sm">NIT Jalandhar</p>
               <p className="text-muted-foreground text-sm">
-                B.Tech Information Technology â€¢ 2nd Year
+                B.Tech Information Technology  3rd Year
               </p>
             </div>
           </StaggerItem>
