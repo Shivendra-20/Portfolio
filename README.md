@@ -4,6 +4,8 @@ My personal developer portfolio, built with React and Vite. It has a terminal-in
 
 Live sections: Hero, About, Skills, Projects, and Contact.
 
+Live URL : https://shivendra-pawaiya.vercel.app
+
 ## Features
 
 - Light/dark theme (dark by default, saved in `localStorage`)
